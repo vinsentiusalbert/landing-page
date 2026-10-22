@@ -12,7 +12,7 @@ if (form) {
         const button = form.querySelector('button[type="submit"]');
         button.disabled = false;
         button.removeAttribute('aria-busy');
-        button.querySelector('.button-label').textContent = 'Daftar sekarang';
+        button.querySelector('.button-label').textContent = 'Kirim pendaftaran saya';
     });
 }
 
